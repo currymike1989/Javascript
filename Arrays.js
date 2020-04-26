@@ -116,7 +116,7 @@ console.log(groceryList2);
 //FIND THE INDEX OF A SELECT ELEMENT OF AN ARRAY
 const pastaIndex = groceryList2.indexOf("pasta");
 
-console.log("The index of pasta is " + pastaIndex + ".");
+//console.log("The index of pasta is " + pastaIndex + ".");
 
 
 
