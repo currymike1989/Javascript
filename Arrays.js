@@ -117,6 +117,6 @@ console.log(groceryList2);
 const pastaIndex = groceryList2.indexOf("pasta");
 
 //console.log("The index of pasta is " + pastaIndex + ".");
-
+//UPDATE
 
 
