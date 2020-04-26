@@ -109,7 +109,7 @@ groceryList2.unshift("popcorn");
 let sliceMethod = groceryList2.slice(1,4);
 
 //console.log(sliceMethod);
-console.log(groceryList2);
+//console.log(groceryList2);
 
 
 //INDEXOF METHOD (.indexOf())
@@ -118,5 +118,15 @@ const pastaIndex = groceryList2.indexOf("pasta");
 
 //console.log("The index of pasta is " + pastaIndex + ".");
 
+//PASSING AN ARRAY THRU A FUNCTION
+//ADDING A ITEM TO GROCERYLIST THRU A 
+//FUNCTION WITH THE PUSH METHOD
+const addFood = (food) => {
+    food.push("strawberries");
+}
+
+addFood(groceryList2);
+
+console.log(groceryList2);
 
 
