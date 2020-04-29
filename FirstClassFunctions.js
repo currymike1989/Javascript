@@ -47,8 +47,8 @@ function requiredAge(requiredAge){
     }
 }
 
-let canDriveCar = requiredAge(16);
-let canRentACar = requiredAge(25);
+let canDriveCar = requiredAge(8);
+let canRentACar = requiredAge(88);
 let canDrinkBeer = requiredAge(21);
 
 /* console.log(canDriveCar(6));
